@@ -8,9 +8,9 @@ public class main {
         Statement stmt = conn.createStatement();
 
         {
-            ResultSet rs = stmt.executeQuery("SELECT * FROM classicmodels.employees;");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM mealtable.Monday;");
             while (rs.next()) {
-                System.out.println(rs.getString("lastName"));
+                System.out.println(rs.getString("Menu"));
             }
         }
     }
