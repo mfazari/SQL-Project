@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, NavigatorIOS, SafeAreaView} from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import {Select_Window} from "./Screens/Select_Window";
+import {Select_Window, TabNavigator} from "./Screens/Select_Window";
 
 type Props = {};
 class Home_Screen extends Component<Props> {
@@ -77,11 +77,15 @@ const styles = StyleSheet.create({
 const MyNavigator = createStackNavigator(
     {
         Home: Home_Screen,
-        Selection: Select_Window,
+        Selection: TabNavigator,
     },
     {
         // headerTransitionPreset: 'uikit',
-        // mode: 'modal',
+        mode: 'modal',
+        initialRouteName: 'Home',
+        headerStyle: {
+            backgroundColor: '#293656',
+        }
     }
 );
 

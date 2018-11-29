@@ -7,16 +7,18 @@ export class Select_Window extends Component {
     render() {
         return (
             <TabNavigator/>
-
         );
     }
 }
 
 
-const TabNavigator = createBottomTabNavigator({
+export const TabNavigator = createBottomTabNavigator({
     Menu_1: meal_1,
     Menu_2: meal_2
-});
+},
+
+
+);
 
 
 
