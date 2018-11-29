@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, NavigatorIOS, SafeAreaView} from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import {Select_Window, TabNavigator} from "./Screens/Select_Window";
+import {TabNavigator} from "./Screens/Select_Window";
 
 type Props = {};
 class Home_Screen extends Component<Props> {
@@ -11,27 +11,26 @@ class Home_Screen extends Component<Props> {
                 <Text style={styles.welcome}> Choose day </Text>
                 <View style={styles.button}>
                     <Button
-                        onPress={this.props.navigation.navigate('Selection')}
+                        onPress={() => this.props.navigation.navigate('Selection')}
                         title="Monday"
                         color="white"
                     />
                     <Button
-                        onPress={this.props.navigation.navigate('Selection')}
-                        title="Tueday"
+                        onPress={() => this.props.navigation.navigate('Selection')}                        title="Tueday"
                         color="white"
                     />
                     <Button
-                        onPress={this.props.navigation.navigate('Selection')}
+                        onPress={() => this.props.navigation.navigate('Selection')}
                         title="Wednesday"
                         color="white"
                     />
                     <Button
-                        onPress={this.props.navigation.navigate('Selection')}
+                        onPress={() => this.props.navigation.navigate('Selection')}
                         title="Thursday"
                         color="white"
                     />
                     <Button
-                        onPress={this.props.navigation.navigate('Selection')}
+                        onPress={() => this.props.navigation.navigate('Selection')}
                         title="Friday"
                         color="white"
                     />
@@ -77,15 +76,12 @@ const styles = StyleSheet.create({
 const MyNavigator = createStackNavigator(
     {
         Home: Home_Screen,
-        Selection: TabNavigator,
+        Selection: TabNavigator
     },
     {
         // headerTransitionPreset: 'uikit',
         mode: 'modal',
         initialRouteName: 'Home',
-        headerStyle: {
-            backgroundColor: '#293656',
-        }
     }
 );
 
