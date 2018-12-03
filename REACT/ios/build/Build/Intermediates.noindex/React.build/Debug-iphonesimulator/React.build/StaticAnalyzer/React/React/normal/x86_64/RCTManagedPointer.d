@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/massimofazari/Downloads/Temp/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/massimofazari/Downloads/Temp/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/massimofazari/Git/SQL\ Project/REACT/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/massimofazari/Git/SQL\ Project/REACT/node_modules/react-native/React/Base/RCTManagedPointer.h

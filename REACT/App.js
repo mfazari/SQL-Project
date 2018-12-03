@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Button, NavigatorIOS, SafeAreaView} from 'react-native';
+import {StyleSheet, Text, View, Button} from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import {TabNavigator} from "./Screens/Select_Window";
+import {TabNavigator} from "./Screens/Selection";
 
 type Props = {};
 class Home_Screen extends Component<Props> {
@@ -42,7 +42,7 @@ class Home_Screen extends Component<Props> {
     }
 }
 
-
+//Stylesheet
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -79,12 +79,10 @@ const MyNavigator = createStackNavigator(
         Selection: TabNavigator
     },
     {
-        // headerTransitionPreset: 'uikit',
-        mode: 'modal',
+        //settings
         initialRouteName: 'Home',
     }
 );
-
 
 
 export default MyNavigator;

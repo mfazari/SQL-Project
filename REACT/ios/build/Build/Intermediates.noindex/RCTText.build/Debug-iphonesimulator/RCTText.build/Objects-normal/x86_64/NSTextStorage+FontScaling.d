@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/massimofazari/Downloads/Temp/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
-  /Users/massimofazari/Downloads/Temp/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h
+  /Users/massimofazari/Git/SQL\ Project/REACT/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
+  /Users/massimofazari/Git/SQL\ Project/REACT/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h
