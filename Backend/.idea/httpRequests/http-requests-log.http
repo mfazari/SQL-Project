@@ -1,0 +1,168 @@
+GET http://localhost:3000/Monday/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-04T055409.200.json
+
+###
+
+GET http://localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-04T055404.200.json
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-04T053947.404.html
+
+###
+
+POST localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/3000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:8080/3000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET /3000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:3000/Monday/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
