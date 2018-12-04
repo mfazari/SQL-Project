@@ -31,7 +31,6 @@ for(i = 0; i < days.length; i++) {
                 if (error) throw error;
                 res.send(JSON.stringify(results));
             })
-            // res.send('Hello World!');
         });
     }
 }
