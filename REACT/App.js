@@ -3,6 +3,11 @@ import {StyleSheet, Text, View, Button} from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import {TabNavigator} from "./Screens/Selection";
 
+
+var day;
+var number;
+
+
 type Props = {};
 class Home_Screen extends Component<Props> {
     render() {

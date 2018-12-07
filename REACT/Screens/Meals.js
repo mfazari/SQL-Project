@@ -34,19 +34,30 @@ export class meal_1 extends Component {
 
 //Meal 2
 export class meal_2 extends Component {
+    state = {
+        data: []
+    };
+    componentWillMount() {
+        this.fetchData();
+    }
+
+    fetchData = async () => {
+        const response = await fetch("http://localhost:3000/Monday/2");
+        const json = await response.json();
+        this.setState({ data: json[0]});
+        text = JSON.stringify(json);
+
+    };
     render() {
         return (
-            <SafeAreaView style={{
-                flex: 1,
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>
-                <Text>Meal 2</Text>
-            </SafeAreaView>
+            <View style ={style2.mealView}>
+                <Text style={style2.menu}>
+                    {text}
+                </Text>
+            </View>
         );
     }
-}
-
+};
 
 
 const style2 = StyleSheet.create({
@@ -58,7 +69,8 @@ const style2 = StyleSheet.create({
     },
     menu: {
         fontSize: 30,
-        fontFamily: 'Arial',
-        color: 'white'
+        fontFamily: 'System',
+        color: 'white',
+        margin: 40
     }
 });
