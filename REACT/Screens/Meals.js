@@ -6,9 +6,6 @@ var text;
 
 //Meal 1
 export class meal_1 extends Component {
-    state = {
-        data: []
-    };
     componentWillMount() {
         this.fetchData();
     }
@@ -18,7 +15,8 @@ export class meal_1 extends Component {
         const json = await response.json();
         this.setState({ data: json[0]});
         text = JSON.stringify(json);
-
+        text = text.replace('[{\"Description\":\"','');
+        text = text.replace('\"}]','');
     };
     render() {
         return (
@@ -34,9 +32,6 @@ export class meal_1 extends Component {
 
 //Meal 2
 export class meal_2 extends Component {
-    state = {
-        data: []
-    };
     componentWillMount() {
         this.fetchData();
     }
@@ -46,7 +41,8 @@ export class meal_2 extends Component {
         const json = await response.json();
         this.setState({ data: json[0]});
         text = JSON.stringify(json);
-
+        text = text.replace('[{\"Description\":\"','');
+        text = text.replace('\"}]','');
     };
     render() {
         return (

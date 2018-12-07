@@ -21,7 +21,8 @@ class Home_Screen extends Component<Props> {
                         color="white"
                     />
                     <Button
-                        onPress={() => this.props.navigation.navigate('Selection')}                        title="Tueday"
+                        onPress={() => this.props.navigation.navigate('Selection')}
+                        title="Tuesday"
                         color="white"
                     />
                     <Button
@@ -46,6 +47,15 @@ class Home_Screen extends Component<Props> {
         );
     }
 }
+
+
+function buttonpress(){
+
+this.props.navigation.navigate('Selection');
+day = "Monday";
+}
+
+
 
 //Stylesheet
 const styles = StyleSheet.create({
