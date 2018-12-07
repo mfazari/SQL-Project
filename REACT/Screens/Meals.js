@@ -21,9 +21,11 @@ export class meal_1 extends Component {
     render() {
         return (
             <View style ={style2.mealView}>
+                <View style ={style2.box}>
                 <Text style={style2.menu}>
                     {text}
                 </Text>
+                </View>
             </View>
         );
     }
@@ -47,14 +49,15 @@ export class meal_2 extends Component {
     render() {
         return (
             <View style ={style2.mealView}>
-                <Text style={style2.menu}>
-                    {text}
-                </Text>
+                <View style ={style2.box}>
+                    <Text style={style2.menu}>
+                        {text}
+                    </Text>
+                </View>
             </View>
         );
     }
 };
-
 
 const style2 = StyleSheet.create({
     mealView: {
@@ -66,7 +69,11 @@ const style2 = StyleSheet.create({
     menu: {
         fontSize: 30,
         fontFamily: 'System',
-        color: 'white',
+        color: 'black',
         margin: 40
+    },
+    box: {
+        borderRadius: 10,
+        backgroundColor: 'white',
     }
 });
