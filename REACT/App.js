@@ -81,7 +81,15 @@ const MyNavigator = createStackNavigator(
     {
         //settings
         initialRouteName: 'Home',
-    }
+
+        navigationOptions: {
+            headerStyle:{backgroundColor:'#293656'},
+            headerTintColor:'white',
+            gesturesEnabled:true
+        },
+        cardStyle: {
+            backgroundColor: 'white'
+        }}
 );
 
 
