@@ -6,7 +6,7 @@ Simple React Native App using REST principles to access and load SQL data from a
 
 ## Getting Started
 
-####Server:
+#### Server:
 
 Start with:
 
