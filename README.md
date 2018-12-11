@@ -33,18 +33,18 @@ npm install react-navigaton@2.0.0
 ````
 
 
-# Authors
+##Authors
 Developed by Massimo Fazari
 
 Version 1.0.0 2018
 
 
 
-#License
+##License
 ISC
 
 
-#Useful Resources
+##Useful Resources
 https://reactnavigation.org/docs/en/tab-based-navigation.html
 
 https://stackoverflow.com/questions/46837576/change-navigator-backgroundcolor-globally
