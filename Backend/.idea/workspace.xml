@@ -4,7 +4,8 @@
     <list default="true" id="041c0d2a-3d75-4cec-abc8-9990dbe487a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REST-SERVER.js" beforeDir="false" afterPath="$PROJECT_DIR$/REST-SERVER.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REST-SERVER.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REACT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../REACT/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/REST-SERVER.js">
+        <entry file="file://$PROJECT_DIR$/rest-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -49,6 +50,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_4.http" />
         <option value="$PROJECT_DIR$/todo" />
         <option value="$PROJECT_DIR$/REST-SERVER.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -166,7 +168,7 @@
     <configuration name="rest-api_4#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_4.http">
       <method v="2" />
     </configuration>
-    <configuration name="Node" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/REST-SERVER.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Node" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/rest-server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
@@ -203,12 +205,12 @@
       <workItem from="1544200272977" duration="3214000" />
       <workItem from="1544389415879" duration="1748000" />
       <workItem from="1544442673955" duration="1184000" />
-      <workItem from="1544527410016" duration="1346000" />
+      <workItem from="1544527410016" duration="2471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30536000" />
+    <option name="totallyTimeSpent" value="31661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,19 +225,19 @@
     <frame x="-1" y="22" width="840" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11721612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="REST Client" order="11" visible="true" weight="0.32939914" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -275,10 +277,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REST-SERVER.js">
+    <entry file="file://$USER_HOME$/Desktop/Simulator Screen Shot - iPhone X - 2018-12-11 at 13.51.55.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "REST-SERVER.js",
+  "main": "rest-server.js",
   "dependencies": {
     "express": "^4.16.4",
     "mysql": "^2.16.0"

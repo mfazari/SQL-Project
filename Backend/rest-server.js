@@ -114,19 +114,6 @@ app.get("/Friday/2", function(req, res){
 });
 
 
-/*
-for(menu_number= 1; menu_number < 3; menu_number++) {
-        var get = '/' + days[i] + '/' + menu_number;
-        var statement = 'SELECT Description FROM '+ days[i] + ' WHERE Primary_Number = ' + 1 + ';';
-        app.get(get, function (req, res) {
-            con.query(statement, function (error, results) {
-                if (error) throw error;
-                res.send(results);
-            })
-        });
-    }
-}
-*/
 
 
 //Listen on port 3000
