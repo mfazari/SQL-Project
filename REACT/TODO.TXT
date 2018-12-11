@@ -1,3 +1,2 @@
-1. SQL Connection
-2. Print in display
-3. Design tweaks
+1. Show at right display
+2. Tweak display
