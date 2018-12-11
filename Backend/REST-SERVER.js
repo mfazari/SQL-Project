@@ -14,28 +14,119 @@ var con = mysql.createConnection({
 //Initialize connection
 con.connect(function(err) {
     if (err) throw err;
-    console.log("Connected to mealtable");
+    console.log("Connected to Database mealtable");
 });
 
 //URI to API
 var i;
 var days = ["Monday", "Tuesday", "Wednesday", "Thursdays", "Friday"];
 
-//Create LINKS
-for(i = 0; i < days.length; i++) {
-    var menu_number;
-    for(menu_number= 1; menu_number < 3; menu_number++) {
+//Monday 1
+app.get("/Monday/1", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Monday" + ' WHERE Primary_Number = ' + 1 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Monday 2
+app.get("/Monday/2", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Monday" + ' WHERE Primary_Number = ' + 2 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Tuesday 1
+app.get("/Tuesday/1", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Tuesday" + ' WHERE Primary_Number = ' + 1 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Tuesday 2
+app.get("/Tuesday/2", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Tuesday" + ' WHERE Primary_Number = ' + 2 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+
+//Wednesday 1
+app.get("/Wednesday/1", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Wednesday" + ' WHERE Primary_Number = ' + 1 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Wednesday 2
+app.get("/Wednesday/2", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Wednesday" + ' WHERE Primary_Number = ' + 2 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Thursday 1
+app.get("/Thursday/1", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Thursday" + ' WHERE Primary_Number = ' + 1 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Thursday 2
+app.get("/Thursday/2", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Thursday" + ' WHERE Primary_Number = ' + 2 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+
+//Friday 1
+app.get("/Friday/1", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Friday" + ' WHERE Primary_Number = ' + 1 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+//Friday 2
+app.get("/Friday/2", function(req, res){
+    var statement = 'SELECT Description FROM '+ "Friday" + ' WHERE Primary_Number = ' + 2 + ';';
+    con.query(statement, function (error, results) {
+        if (error) throw error;
+        res.send(results);
+    })
+});
+
+
+/*
+for(menu_number= 1; menu_number < 3; menu_number++) {
         var get = '/' + days[i] + '/' + menu_number;
-        var statement = 'SELECT Description FROM '+ days[i] + ' WHERE Primary_Number = ' + menu_number + ';';
+        var statement = 'SELECT Description FROM '+ days[i] + ' WHERE Primary_Number = ' + 1 + ';';
         app.get(get, function (req, res) {
             con.query(statement, function (error, results) {
                 if (error) throw error;
-                res.send(results[0]);
+                res.send(results);
             })
         });
     }
 }
-
+*/
 
 
 //Listen on port 3000
